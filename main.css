@@ -1,0 +1,38 @@
+@charset "SHIFT-JIS";
+#sidebar ul{
+  list-style:none;
+  padding:0px;
+  margin:0px;
+}
+#sidebar{
+ background:gray;
+}
+
+
+@media screen and (min-width:600px){
+
+#sidebar{
+ width:100%;
+}
+#sidebar ul{
+  overflow:hidden;
+}
+#sidebar li{
+  display:block;
+  padding:10px 30px;
+  float:left;
+  margin:0px;
+  color:#FFF;
+}
+.body{
+  overflow:hidden;
+}
+#main{
+  display:block;
+}
+@media screen and (max-width:600px){
+#sidebar li{
+  width:100%;
+}
+}
+}
